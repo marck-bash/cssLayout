@@ -1,0 +1,67 @@
+.parent {
+    background-color: beige;
+    border: 2px solid black;
+    padding 10px;
+    height: 150vh;
+    width: 150vw;
+
+    position: relative;
+    
+}
+
+body {
+    position: relative;  
+
+}
+
+.parent > div {
+    padding: 10px;
+    /* position: relative;   */
+}
+
+.static {
+    background: cadetblue;
+    position: static;
+}
+
+.relative {
+    background-color: chartreuse;
+    position: relative;
+    /* top: 25px; 
+    left: 25px; */
+    
+}
+
+.absolute {
+    background-color: crimson;
+    position: absolute;
+    top: 50vh;
+    left: 0;
+}
+
+.absolute2 {
+    /* background-color: darkred;
+    width: 50%;
+    margin: auto;
+    padding: 50%;
+
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%) */
+}
+
+.fixed {
+    background-color: darkorchid;
+    position: fixed;
+
+}
+
+.sticky {
+    background-color: goldenrod;
+    position: sticky;
+    top: 10px;
+    width: 25%;
+
+}
+
